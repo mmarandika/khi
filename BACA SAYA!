@@ -1,0 +1,17 @@
+CARA INSTALASI KHI SCRIPT
+
+1. SIAPKAN DATABASE, tonton video tutorial pembuatan database di YOUTUBE
+2. Beri hak akses username database ke database yang telah dibuat
+3. BUAT 2 DATABASE, 1 cloaker dan satu lagi cloakstats
+4. Buka file config.php 
+5. ganti username dan password DB masing-masing di file config.php sesuai dengan username dan database yang telah dibuat
+6. Import kedua database cloaker.sql dan cloakstats.sql
+7. setelah itu buka di browser alamat dari script khi, apabila di install di pc/laptop. akses melalui http://localhost/khi-cloak/ 
+8. login menggunakan username : admin dan password : admin
+
+CATATAN
+untuk mengarahkan domain, bisa menggunakan metode DIRECT A
+
+
+apabila di install di server vps. harap upload genindex.php di /var/www/html 
+arahkan default ke genindex.php 
